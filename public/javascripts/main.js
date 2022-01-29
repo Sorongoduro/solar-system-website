@@ -21,7 +21,7 @@ const planetMass = document.querySelector('.planet-mass')
 const planetDensity = document.querySelector('.planet-density')
 const planetDesc = document.querySelector('.planet-desc')
 
-const url = 'http://localhost:3001/planets'
+const url = 'https://solar-system2-api.herokuapp.com/planets'
 
 
 sun.addEventListener('click', () => {

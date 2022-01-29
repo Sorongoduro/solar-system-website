@@ -1,6 +1,6 @@
 const request = require('postman-request')
 
-const url = 'http://localhost:3001/planets'
+const url = 'https://solar-system2-api.herokuapp.com/planets'
 
 let getAllPlanets = (callback) => {
     request(url, (err, res, body) => {

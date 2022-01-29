@@ -6,7 +6,7 @@ form.addEventListener('submit', (e) => {
     
     const formDataJson = Object.fromEntries(formData)
     
-    const url = 'http://localhost:3001/planet'
+    const url = 'https://solar-system2-api.herokuapp.com/planet'
     
     fetch(url, {
         method: 'POST',
