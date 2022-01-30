@@ -665,6 +665,107 @@ padding: 500px 100px;
         position: absolute;
         top: 80%;
     }
+
+
+    @keyframes return-mercury-mobile {
+        from {
+            transform: rotate(0deg) translateX(-32px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(-32px);
+    
+        }
+    }
+    
+    @keyframes return-venus-mobile {
+        from {
+            transform: rotate(0deg) translateX(-60px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(-60px);
+    
+        }
+    }
+    
+    @keyframes return-earth-mobile {
+        from {
+            transform: rotate(0deg) translateX(-100px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(-100px);
+    
+        }
+    }
+    
+    @keyframes return-mars-mobile {
+        from {
+            transform: rotate(0deg) translateX(-120px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(-120px);
+    
+        }
+    }
+    
+    @keyframes return-jupiter-mobile {
+        from {
+            transform: rotate(0deg) translateX(40px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(40px);
+    
+        }
+    }
+    
+    @keyframes return-saturn-mobile {
+        from {
+            transform: rotate(0deg) translateX(75px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(75px);
+    
+        }
+    }
+    
+    @keyframes return-uranus-mobile {
+        from {
+            transform: rotate(0deg) translateX(110px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(110px);
+    
+        }
+    }
+    
+    @keyframes return-neptune-mobile {
+        from {
+            transform: rotate(0deg) translateX(145px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(145px);
+    
+        }
+    }
+    
+    @keyframes return-pluto-mobile {
+        from {
+            transform: rotate(0deg) translateX(155px);
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(155px);
+    
+        }
+    }
+    
 }
 
 
@@ -818,6 +919,34 @@ padding: 500px 100px;
 }
 .return-pluto {
     animation: return-pluto 2.5s forwards;
+}
+
+.return-mercury-mobile {
+    animation: return-mercury-mobile 0.5s forwards;
+}
+.return-venus-mobile {
+    animation: return-venus-mobile 2s forwards;
+}
+.return-earth-mobile {
+    animation: return-earth-mobile 1s forwards;
+}
+.return-mars-mobile {
+    animation: return-mars-mobile 2s forwards;
+}
+.return-jupiter-mobile {
+    animation: return-jupiter-mobile 1s forwards;
+}
+.return-saturn-mobile {
+    animation: return-saturn-mobile 1.5s forwards;
+}
+.return-uranus-mobile {
+    animation: return-uranus-mobile 1s forwards;
+}
+.return-neptune-mobile {
+    animation: return-neptune-mobile 2s forwards;
+}
+.return-pluto-mobile {
+    animation: return-pluto-mobile 2.5s forwards;
 }
 
 @keyframes return-mercury {
