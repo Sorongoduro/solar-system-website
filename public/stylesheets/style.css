@@ -529,7 +529,7 @@ padding: 500px 100px;
         height: 5px;
         width: 5px;
 
-        animation: mars-mobile 20s linear infinite;
+        animation: mars-mobile 25s linear infinite;
     }
 
     @keyframes mars-mobile {
@@ -549,7 +549,7 @@ padding: 500px 100px;
         padding: 10px;
         height: 5px;
         width: 5px;
-        animation: jupiter-mobile 23s linear infinite;
+        animation: jupiter-mobile 28s linear infinite;
     }
 
     @keyframes jupiter-mobile {
@@ -568,7 +568,7 @@ padding: 500px 100px;
         padding: 9px;
         height: 5px;
         width: 5px;
-        animation: saturn-mobile 20s linear infinite;
+        animation: saturn-mobile 31s linear infinite;
     }
     
     @keyframes saturn-mobile {
