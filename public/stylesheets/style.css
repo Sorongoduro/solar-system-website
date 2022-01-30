@@ -370,7 +370,153 @@ padding: 500px 100px;
 
 }
 
+
+
 @media (max-width: 768px) {
+
+    
+
+    .kuiper-belt {
+        display: none;
+    }
+
+    .sun {
+        top: 50%;
+        right: 40%;
+    }
+
+    .mercury {
+        top: 50%;
+        right: 40%;
+        padding: 0.1px;
+        animation: mercury-mobile 10s linear infinite;
+    }
+
+    @keyframes mercury-mobile {
+        from {
+            transform: rotate(0deg) translateX(50px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(50px);
+        }
+    }
+
+    .venus {
+        top: 50%;
+        right: 40%;
+        padding: 0.5px;
+        animation: venus-mobile 15s linear infinite;
+    }
+
+    @keyframes venus-mobile {
+        from {
+            transform: rotate(0deg) translateX(80px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(80px);
+        }
+    }
+
+    .earth {
+        top: 50%;
+        right: 40%;
+        margin: 13.5;
+        padding: 1.5px;
+        animation: earth-mobile 20s linear infinite;
+    }
+
+    
+    @keyframes earth-mobile {
+        from {
+            transform: rotate(0deg) translateX(110px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(110px);
+        }
+    }
+
+    .mars {
+        top: 50%;
+        right: 40%;
+        margin: 13.5px;
+        padding: 1.5px;
+        animation: mars-mobile 20s linear infinite;
+    }
+
+    @keyframes mars-mobile {
+        from {
+            transform: rotate(0deg) translateX(140px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(140px);
+        }
+    }
+
+    .jupiter {
+        top: 50%;
+        right: 40%;
+        margin: 12px;
+        padding: 3px;
+        animation: jupiter-mobile 23s linear infinite;
+    }
+
+    @keyframes jupiter-mobile {
+        from {
+            transform: rotate(0deg) translateX(170px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(170px);
+        }
+    }
+    .saturn {
+        top: 50%;
+        right: 40%;
+        padding: 5px;
+        height: 5px;
+        width: 5px;
+        animation: saturn-mobile 20s linear infinite;
+    }
+    
+    @keyframes saturn-mobile {
+        from {
+            transform: rotate(0deg) translateX(190px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(190px);
+        }
+    }
+    .uranus {
+        top: 50%;
+        right: 40%;
+        padding: 1.5px;
+        animation: uranus-mobile 35s linear infinite;
+    }
+    .neptune {
+        top: 50%;
+        right: 40%;
+        padding: 2px;
+        animation: neptune-mobile 40s linear infinite;
+    }
+    .pluto {
+        top: 50%;
+        right: 40%;
+        animation: pluto-mobile 45s linear infinite;
+    }
+
+
+
     .info {
         position: absolute;
         top: 100%;
