@@ -35,6 +35,7 @@ sun.addEventListener('click', () => {
             planetTemp.textContent = `Temperatura de superficie: ${data[0].temp}`
             planetMass.textContent = `Masa: ${data[0].mass}`
             planetDensity.textContent = `Densidad: ${data[0].density}`
+            planetDesc.textContent = `Descripcion: ${data[0].description}`
         })
 
     desc.classList.remove('hide')
