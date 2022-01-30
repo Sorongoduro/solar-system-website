@@ -376,12 +376,12 @@ padding: 500px 100px;
 
 @keyframes mercury {
     from {
-        transform: rotate(0deg) translateX(55px);
+        transform: rotate(0deg) translateX(60px);
 
     }
 
     to {
-        transform: rotate(360deg) translateX(55px);
+        transform: rotate(360deg) translateX(60px);
     }
 }
 
