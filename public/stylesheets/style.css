@@ -606,7 +606,7 @@ padding: 500px 100px;
         padding: 7px;
         height: 5px;
         width: 5px;
-        animation: neptune-mobile 30s linear infinite;
+        animation: neptune-mobile 40s linear infinite;
     }
 
     @keyframes neptune-mobile {
