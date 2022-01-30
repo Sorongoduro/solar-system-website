@@ -382,15 +382,16 @@ padding: 500px 100px;
 
     .sun {
         top: 50%;
-        right: 50%;
-        padding: 15px;
-        height: 5px;
-        width: 5px;
+        right: 45%;
+        margin: 5px;
+        padding: 10px;
+        height: 10px;
+        width: 10px;
     }
 
     .mercury {
         top: 50%;
-        right: 42%;
+        right: 45%;
         padding: 3px;
         height: 5px;
         width: 5px;
@@ -410,7 +411,7 @@ padding: 500px 100px;
 
     .venus {
         top: 50%;
-        right: 42%;
+        right: 45%;
         padding: 3.5px;
         height: 5px;
         width: 5px;
@@ -429,7 +430,7 @@ padding: 500px 100px;
 
     .earth {
         top: 50%;
-        right: 42%;
+        right: 45%;
         margin: 1px;
         padding: 4px;
         height: 5px;
@@ -451,7 +452,7 @@ padding: 500px 100px;
 
     .mars {
         top: 50%;
-        right: 42%;
+        right: 45%;
         margin: 0.9px;
         padding: 4.1px;
         height: 5px;
@@ -473,7 +474,7 @@ padding: 500px 100px;
 
     .jupiter {
         top: 50%;
-        right: 42%;
+        right: 45%;
         padding: 5px;
         height: 5px;
         width: 5px;
@@ -492,7 +493,7 @@ padding: 500px 100px;
     }
     .saturn {
         top: 50%;
-        right: 42%;
+        right: 45%;
         padding: 5px;
         height: 5px;
         width: 5px;
@@ -511,24 +512,60 @@ padding: 500px 100px;
     }
     .uranus {
         top: 50%;
-        right: 42%;
-        padding: 5px;
+        right: 45%;
+        padding: 3.5px;
         height: 5px;
         width: 5px;
         animation: uranus-mobile 35s linear infinite;
     }
+
+    @keyframes uranus-mobile {
+        from {
+            transform: rotate(0deg) translateX(145px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(145px);
+        }
+    }
     .neptune {
         top: 50%;
-        right: 42%;
-        padding: 2px;
+        right: 45%;
+        padding: 3px;
+        height: 5px;
+        width: 5px;
         animation: neptune-mobile 40s linear infinite;
+    }
+
+    @keyframes neptune-mobile {
+        from {
+            transform: rotate(0deg) translateX(160px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(160px);
+        }
     }
     .pluto {
         top: 50%;
-        right: 42%;
+        right: 45%;
+        padding: 1.5px;
+        height: 5px;
+        width: 5px;
         animation: pluto-mobile 45s linear infinite;
     }
-
+    @keyframes pluto-mobile {
+        from {
+            transform: rotate(0deg) translateX(170px);
+    
+        }
+    
+        to {
+            transform: rotate(360deg) translateX(170px);
+        }
+    }
 
 
     .info {
