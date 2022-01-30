@@ -451,6 +451,7 @@ padding: 500px 100px;
 }
 
 .planet-lineup {
+    position: relative;
     text-align: center;
     align-items: center;
     cursor: pointer;
@@ -464,7 +465,17 @@ padding: 500px 100px;
     color: white;
 }
 
+.planet-lineup .order::after {
 
+    content: "●";
+
+}
+
+.planet-lineup .order::before {
+    
+    content: "●";
+
+}
 
 @media (max-width: 768px) {
 
