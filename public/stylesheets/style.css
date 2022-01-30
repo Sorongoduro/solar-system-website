@@ -196,6 +196,7 @@ padding: 500px 100px;
 }
 
 .venus {
+    cursor: pointer;
     position: absolute;
     align-items: center;
     text-align: center;
@@ -213,6 +214,7 @@ padding: 500px 100px;
 
 
 .earth {
+    cursor: pointer;
     position: absolute;
     align-items: center;
     text-align: center;
@@ -229,6 +231,7 @@ padding: 500px 100px;
 }
 
 .mars {
+    cursor: pointer;
     position: absolute;
     align-items: center;
     text-align: center;
@@ -245,6 +248,7 @@ padding: 500px 100px;
 }
 
 .jupiter {
+    cursor: pointer;
     position: absolute;
     align-items: center;
     text-align: center;
@@ -261,6 +265,7 @@ padding: 500px 100px;
 }
 
 .saturn {
+    cursor: pointer;
     position: absolute;
     align-items: center;
     text-align: center;
@@ -277,6 +282,7 @@ padding: 500px 100px;
 }
 
 .uranus {
+    cursor: pointer;
     position: absolute;
     align-items: center;
     text-align: center;
@@ -293,6 +299,7 @@ padding: 500px 100px;
 }
 
 .neptune {
+    cursor: pointer;
     position: absolute;
     align-items: center;
     text-align: center;
@@ -309,6 +316,7 @@ padding: 500px 100px;
 }
 
 .pluto {
+    cursor: pointer;
     position: absolute;
     align-items: center;
     text-align: center;
