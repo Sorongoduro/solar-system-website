@@ -10,7 +10,8 @@ const uranus = document.querySelector('.uranus')
 const neptune = document.querySelector('.neptune')
 const pluto = document.querySelector('.pluto')
 const desc = document.querySelector('.info')
-
+const order = document.querySelector('.planet-order')
+const disorder = document.querySelector('.planet-disorder')
 
 const planetName = document.querySelector('.planet-name')
 const planetType = document.querySelector('.planet-type')
@@ -183,4 +184,29 @@ pluto.addEventListener('click', () => {
             planetDesc.textContent = `Descripcion: ${data[9].description}`
         })
     desc.classList.remove('hide')
+})
+
+
+order.addEventListener('click', () => {
+    mercury.style.animationPlayState = "paused";
+    venus.style.animationPlayState = "paused";
+    earth.style.animationPlayState = "paused";
+    mars.style.animationPlayState = "paused";
+    jupiter.style.animationPlayState = "paused";
+    uranus.style.animationPlayState = "paused";
+    saturn.style.animationPlayState = "paused";
+    neptune.style.animationPlayState = "paused";
+    pluto.style.animationPlayState = "paused";
+})
+
+disorder.addEventListener('click', () => {
+    mercury.style.animationPlayState = "running";
+    venus.style.animationPlayState = "running";
+    earth.style.animationPlayState = "running";
+    mars.style.animationPlayState = "running";
+    jupiter.style.animationPlayState = "running";
+    uranus.style.animationPlayState = "running";
+    saturn.style.animationPlayState = "running";
+    neptune.style.animationPlayState = "running";
+    pluto.style.animationPlayState = "running";
 })

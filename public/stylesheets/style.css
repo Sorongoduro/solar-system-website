@@ -196,6 +196,8 @@ padding: 500px 100px;
     animation: mercury 5s linear infinite;
 }
 
+
+
 .venus {
     cursor: pointer;
     position: absolute;
@@ -212,6 +214,7 @@ padding: 500px 100px;
     border-radius: 100%;
     animation: venus 6s linear infinite;
 }
+
 
 
 .earth {
@@ -231,6 +234,8 @@ padding: 500px 100px;
     animation: earth 8s linear infinite;
 }
 
+
+
 .mars {
     cursor: pointer;
     position: absolute;
@@ -247,6 +252,8 @@ padding: 500px 100px;
     border-radius: 100%;
     animation: mars 10s linear infinite;
 }
+
+
 
 .jupiter {
     cursor: pointer;
@@ -265,6 +272,8 @@ padding: 500px 100px;
     animation: jupiter 12s linear infinite;
 }
 
+
+
 .saturn {
     cursor: pointer;
     position: absolute;
@@ -282,6 +291,7 @@ padding: 500px 100px;
     animation: saturn 14s linear infinite;
 }
 
+
 .uranus {
     cursor: pointer;
     position: absolute;
@@ -296,8 +306,10 @@ padding: 500px 100px;
     margin: 12px;
     padding: 3px;
     border-radius: 100%;
-    animation: uranus 16s linear infinite;
+    animation: uranus 16s linear infinite; 
 }
+
+
 
 .neptune {
     cursor: pointer;
@@ -316,6 +328,8 @@ padding: 500px 100px;
     animation: neptune 18s linear infinite;
 }
 
+
+
 .pluto {
     cursor: pointer;
     position: absolute;
@@ -331,6 +345,7 @@ padding: 500px 100px;
     border-radius: 100%;
     animation: pluto 15s linear infinite;
 }
+
 
 .kuiper-belt {
     position: relative;
@@ -358,7 +373,6 @@ padding: 500px 100px;
     border-radius: 10px;
     z-index: 999;
     animation: descIn linear .3s;
-
 }
 
 
@@ -370,7 +384,27 @@ padding: 500px 100px;
 
 }
 
+.planet-order {
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 1px 1px 10px 5px rgb(22, 22, 22);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: fit-content;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
 
+.planet-disorder {
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 1px 1px 10px 5px rgb(22, 22, 22);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: fit-content;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
 
 @media (max-width: 768px) {
 
@@ -692,3 +726,4 @@ padding: 500px 100px;
         transform: rotate(360deg) translateX(380px);
     }
 }
+
