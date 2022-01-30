@@ -26,6 +26,10 @@ const url = 'https://solar-system2-api.herokuapp.com/planets'
 
 
 sun.addEventListener('click', () => {
+
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
+
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -43,6 +47,9 @@ sun.addEventListener('click', () => {
 })
 
 mercury.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -59,6 +66,9 @@ mercury.addEventListener('click', () => {
 })
 
 venus.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -75,6 +85,9 @@ venus.addEventListener('click', () => {
 })
 
 earth.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -91,6 +104,9 @@ earth.addEventListener('click', () => {
 })
 
 mars.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -107,6 +123,9 @@ mars.addEventListener('click', () => {
 })
 
 jupiter.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -123,6 +142,9 @@ jupiter.addEventListener('click', () => {
 })
 
 saturn.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -139,6 +161,9 @@ saturn.addEventListener('click', () => {
 })
 
 uranus.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -155,6 +180,9 @@ uranus.addEventListener('click', () => {
 })
 
 neptune.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -171,6 +199,9 @@ neptune.addEventListener('click', () => {
 })
 
 pluto.addEventListener('click', () => {
+    
+    desc.classList.toggle('active')
+    desc.classList.toggle('desc-in')
     fetch(url)
         .then(res => res.json())
         .then(data => {
