@@ -382,7 +382,7 @@ padding: 500px 100px;
 
     .sun {
         top: 50%;
-        right: 40%;
+        right: 42%;
         padding: 15px;
         height: 5px;
         width: 5px;
@@ -390,7 +390,7 @@ padding: 500px 100px;
 
     .mercury {
         top: 50%;
-        right: 40%;
+        right: 42%;
         padding: 3px;
         height: 5px;
         width: 5px;
@@ -410,7 +410,7 @@ padding: 500px 100px;
 
     .venus {
         top: 50%;
-        right: 40%;
+        right: 42%;
         padding: 3.5px;
         height: 5px;
         width: 5px;
@@ -429,7 +429,7 @@ padding: 500px 100px;
 
     .earth {
         top: 50%;
-        right: 40%;
+        right: 42%;
         margin: 1px;
         padding: 4px;
         height: 5px;
@@ -451,7 +451,7 @@ padding: 500px 100px;
 
     .mars {
         top: 50%;
-        right: 40%;
+        right: 42%;
         margin: 0.9px;
         padding: 4.1px;
         height: 5px;
@@ -473,7 +473,7 @@ padding: 500px 100px;
 
     .jupiter {
         top: 50%;
-        right: 40%;
+        right: 42%;
         padding: 5px;
         height: 5px;
         width: 5px;
@@ -492,7 +492,7 @@ padding: 500px 100px;
     }
     .saturn {
         top: 50%;
-        right: 40%;
+        right: 42%;
         padding: 5px;
         height: 5px;
         width: 5px;
@@ -511,7 +511,7 @@ padding: 500px 100px;
     }
     .uranus {
         top: 50%;
-        right: 40%;
+        right: 42%;
         padding: 5px;
         height: 5px;
         width: 5px;
@@ -519,13 +519,13 @@ padding: 500px 100px;
     }
     .neptune {
         top: 50%;
-        right: 40%;
+        right: 42%;
         padding: 2px;
         animation: neptune-mobile 40s linear infinite;
     }
     .pluto {
         top: 50%;
-        right: 40%;
+        right: 42%;
         animation: pluto-mobile 45s linear infinite;
     }
 
