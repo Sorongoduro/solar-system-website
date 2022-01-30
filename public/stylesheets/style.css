@@ -424,6 +424,8 @@ padding: 500px 100px;
 }
 
 .planet-order {
+    text-align: center;
+    align-items: center;
     cursor: pointer;
     user-select: none;
     box-shadow: 1px 1px 10px 5px rgb(22, 22, 22);
@@ -435,6 +437,8 @@ padding: 500px 100px;
 }
 
 .planet-disorder {
+    text-align: center;
+    align-items: center;
     cursor: pointer;
     user-select: none;
     box-shadow: 1px 1px 10px 5px rgb(22, 22, 22);
@@ -444,6 +448,7 @@ padding: 500px 100px;
     background-color: rgb(53, 53, 53);
     color: white;
 }
+
 
 @media (max-width: 768px) {
 
