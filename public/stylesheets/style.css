@@ -392,7 +392,7 @@ padding: 500px 100px;
     .mercury {
         top: 50%;
         right: 45%;
-        padding: 4px;
+        padding: 5px;
         height: 5px;
         width: 5px;
         animation: mercury-mobile 10s linear infinite;
@@ -412,7 +412,7 @@ padding: 500px 100px;
     .venus {
         top: 50%;
         right: 45%;
-        padding: 4.5px;
+        padding: 5.5px;
         height: 5px;
         width: 5px;
         animation: venus-mobile 15s linear infinite;
@@ -454,7 +454,7 @@ padding: 500px 100px;
         top: 50%;
         right: 45%;
         margin: 0.9px;
-        padding: 5px;
+        padding: 6px;
         height: 5px;
         width: 5px;
 
@@ -475,7 +475,7 @@ padding: 500px 100px;
     .jupiter {
         top: 50%;
         right: 45%;
-        padding: 5.5px;
+        padding: 10px;
         height: 5px;
         width: 5px;
         animation: jupiter-mobile 23s linear infinite;
@@ -494,7 +494,7 @@ padding: 500px 100px;
     .saturn {
         top: 50%;
         right: 45%;
-        padding: 5px;
+        padding: 9px;
         height: 5px;
         width: 5px;
         animation: saturn-mobile 20s linear infinite;
@@ -513,7 +513,7 @@ padding: 500px 100px;
     .uranus {
         top: 50%;
         right: 45%;
-        padding: 4px;
+        padding: 6px;
         height: 5px;
         width: 5px;
         animation: uranus-mobile 35s linear infinite;
@@ -532,10 +532,10 @@ padding: 500px 100px;
     .neptune {
         top: 50%;
         right: 45%;
-        padding: 4px;
+        padding: 7px;
         height: 5px;
         width: 5px;
-        animation: neptune-mobile 40s linear infinite;
+        animation: neptune-mobile 30s linear infinite;
     }
 
     @keyframes neptune-mobile {
@@ -551,20 +551,21 @@ padding: 500px 100px;
     .pluto {
         top: 50%;
         right: 45%;
-        padding: 2.5px;
+        padding: 6px;
         height: 5px;
         width: 5px;
-        animation: pluto-mobile 45s linear infinite;
+        animation: pluto-mobile 35s linear infinite;
     }
     @keyframes pluto-mobile {
-        from {
-            transform: rotate(0deg) translateX(170px);
-    
+        0% {
+            transform: rotate(0deg) translateX(200px);
         }
     
-        to {
-            transform: rotate(360deg) translateX(170px);
+        100% {
+            transform: rotate(360deg) translateX(200px);
         }
+
+
     }
 
 
