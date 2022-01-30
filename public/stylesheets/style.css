@@ -370,6 +370,13 @@ padding: 500px 100px;
 
 }
 
+@media (max-width: 768px) {
+    .info {
+        position: absolute;
+        top: 100%;
+    }
+}
+
 
 @keyframes descIn {
     0% {
