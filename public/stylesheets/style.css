@@ -444,10 +444,26 @@ padding: 500px 100px;
     box-shadow: 1px 1px 10px 5px rgb(22, 22, 22);
     border-radius: 10px;
     padding: 10px;
+    margin-left: 20px;
     max-width: fit-content;
     background-color: rgb(53, 53, 53);
     color: white;
 }
+
+.planet-lineup {
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 1px 1px 10px 5px rgb(22, 22, 22);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    max-width: fit-content;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+
 
 
 @media (max-width: 768px) {
@@ -773,6 +789,133 @@ padding: 500px 100px;
 
     to {
         transform: rotate(360deg) translateX(380px);
+    }
+}
+
+.return-mercury {
+    animation: return-mercury 0.5s forwards;
+}
+.return-venus {
+    animation: return-venus 2s forwards;
+}
+.return-earth {
+    animation: return-earth 1s forwards;
+}
+.return-mars {
+    animation: return-mars 2s forwards;
+}
+.return-jupiter {
+    animation: return-jupiter 1s forwards;
+}
+.return-saturn {
+    animation: return-saturn 1.5s forwards;
+}
+.return-uranus {
+    animation: return-uranus 1s forwards;
+}
+.return-neptune {
+    animation: return-neptune 2s forwards;
+}
+.return-pluto {
+    animation: return-pluto 2.5s forwards;
+}
+
+@keyframes return-mercury {
+    from {
+        transform: rotate(0deg) translateX(-60px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(-60px);
+
+    }
+}
+
+@keyframes return-venus {
+    from {
+        transform: rotate(0deg) translateX(-90px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(-90px);
+
+    }
+}
+
+@keyframes return-earth {
+    from {
+        transform: rotate(0deg) translateX(-130px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(-130px);
+
+    }
+}
+
+@keyframes return-mars {
+    from {
+        transform: rotate(0deg) translateX(-170px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(-170px);
+
+    }
+}
+
+@keyframes return-jupiter {
+    from {
+        transform: rotate(0deg) translateX(70px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(70px);
+
+    }
+}
+
+@keyframes return-saturn {
+    from {
+        transform: rotate(0deg) translateX(120px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(120px);
+
+    }
+}
+
+@keyframes return-uranus {
+    from {
+        transform: rotate(0deg) translateX(170px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(170px);
+
+    }
+}
+
+@keyframes return-neptune {
+    from {
+        transform: rotate(0deg) translateX(210px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(210px);
+
+    }
+}
+
+@keyframes return-pluto {
+    from {
+        transform: rotate(0deg) translateX(225px);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(225px);
+
     }
 }
 

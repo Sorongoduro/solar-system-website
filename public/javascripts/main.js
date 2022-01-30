@@ -12,6 +12,7 @@ const pluto = document.querySelector('.pluto')
 const desc = document.querySelector('.info')
 const order = document.querySelector('.planet-order')
 const disorder = document.querySelector('.planet-disorder')
+const lineup = document.querySelector('.planet-lineup')
 
 const planetName = document.querySelector('.planet-name')
 const planetType = document.querySelector('.planet-type')
@@ -240,4 +241,16 @@ disorder.addEventListener('click', () => {
     saturn.style.animationPlayState = "running";
     neptune.style.animationPlayState = "running";
     pluto.style.animationPlayState = "running";
+})
+
+lineup.addEventListener('click', () => {
+    mercury.classList.toggle('return-mercury')
+    venus.classList.toggle('return-venus')
+    earth.classList.toggle('return-earth')
+    mars.classList.toggle('return-mars')
+    jupiter.classList.toggle('return-jupiter')
+    saturn.classList.toggle('return-saturn')
+    uranus.classList.toggle('return-uranus')
+    neptune.classList.toggle('return-neptune')
+    pluto.classList.toggle('return-pluto')
 })
